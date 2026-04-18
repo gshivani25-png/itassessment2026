@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychologypedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- PAGE LOADER -->
+
+    <div id = "pageloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+                    <img src="images/logo.jpeg" alt="logo">
+                    <span>Psychologypedia</span>
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="topics.html">Topics</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                    <li><a href="table.html">Study Schedule</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+
+
+    <!-- CONTACT HEADER -->
+
+<section class="contact-header">
+<h1>Contact Us</h1>
+<p>We would love to hear from you</p>
+</section>
+<section class="contact-section">
+
+
+<div class="contact-info">
+
+<h2>Contact Details</h2>
+<p>📧 psychologypedia@gmail.com</p>
+<p>📞 +977 98XXXXXXXX</p>
+<p>📍 Kathmandu, Nepal</p>
+</div>
+
+<form id="contactForm">
+
+<!-- NAME -->
+
+<div class="input-box">
+<span>👤</span>
+<input type="text" id="name" placeholder="Full Name" required>
+</div>
+
+<!-- EMAIL -->
+
+<div class="input-box">
+<span>📧</span>
+<input type="email" id="email" placeholder="Email Address" required>
+</div>
+
+<!-- PHONE -->
+
+<div class="input-box">
+<span>📞</span>
+<input type="text" id="phone" placeholder="Phone Number" required>
+</div>
+
+<!-- ADDRESS -->
+
+<div class="input-box">
+<span>🏠</span>
+<input type="text" id="address" placeholder="Address" required>
+</div>
+
+<!-- GENDER -->
+
+<div class="radio-group">
+<p>Select Gender:</p>
+
+<label><input type="radio" name="gender" value="Male" required> Male</label>
+<label><input type="radio" name="gender" value="Female"> Female</label>
+<label><input type="radio" name="gender" value="Other"> Other</label>
+
+</div>
+
+<!-- COUNTRY -->
+
+<div class="input-box">
+<select id="country" required>
+<option value="">Select Country</option>
+<option value="Nepal">Nepal</option>
+<option value="India">India</option>
+<option value="USA">USA</option>
+<option value="UK">USA</option>
+<option value="Japan">Japan</option>
+<option value="China">China</option>
+<option value="Korea">Korea</option>
+<option value="Russia">Russia</option>
+<option value="Bhutan">Bhutan</option>
+</select>
+</div>
+
+<!-- MESSAGE -->
+
+<div class="input-box">
+<span>💬</span>
+<textarea id="message" placeholder="Your Message" required></textarea>
+</div>
+
+<!-- SUBMIT BUTTONS -->
+
+<button type="submit" id="submitBtn">
+    <span id="btnText">Submit</span>
+    <span id="loader" class="loader"></span>
+    </button>
+
+</form>
+
+</section>
+
+
+<!-- POPUP -->
+
+<div id="popup" class="popup">
+<p id="popupText"></p>
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+    <div class="foot-panel1">
+        Back to Top
+    </div>
+
+    <div class="foot-panel2">
+        <div class="footer-col">
+            <p>Get to know us</p>
+            <a href="#">Careers</a>
+            <a href="#">Our Story</a>
+            <a href="#">About Psychologypedia</a>
+        </div>
+
+        <div class="footer-col">
+            <p>Learn</p>
+            <a href="#">Topics</a>
+            <a href="#">Blog</a>
+            <a href="#">Glossary</a>
+        </div>
+        
+        <div class="footer-col">
+            <p>Resources</p>
+            <a href="#">Help Center</a>
+            <a href="#">FAQs</a>
+        </div>
+
+        <div class="footer-col">
+            <p>Legal</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Disclaimer</a>
+        </div>
+    </div>
+         
+    <div class="foot-panel3">
+
+    <div class="icon"></div>
+
+    <div class="yt-container">
+
+        <a href="https://youtube.com/@psychologypedia?si=xezHvtllbLjaqftg" 
+           target="_blank" 
+           class="yt-link">
+
+            <img src="images/youtube.jpg" alt="YouTube Channel">
+        </a>
+
+        <span class="yt-text">Subscribe to Our Channel</span>
+
+    </div>
+
+</div>
+
+    <div class="foot-panel4">
+        <div class="pages">
+            <a>Contact   |   Email   |   Social Links</a>
+        </div>
+    </div>
+</footer>
+
+ <script src="JS/contact.js" defer></script>
+
+</body>
+</html>
