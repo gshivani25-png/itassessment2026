@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychologypedia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JS/script.js" defer></script>
+</head>
+<body>
+
+    <!-- PAGE LOADER -->
+
+    <div id = "pageloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+                    <img src="images/logo.jpeg" alt="logo">
+                    <span>Psychologypedia</span>
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="topics.html">Topics</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                    <li><a href="table.html">Study Schedule</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+
+<!-- Hero Section -->
+
+<div class="banner">
+    <div class="banner-content">
+        <h1>Explore the Science of Mind and Behavior</h1>
+        <p>Learn Psychology in a simple and practical way.</p>
+        <button>Start Learning</button>
+    </div>
+</div>
+
+<!-- TOPICS -->
+
+<div class="topics">
+    <h2>Featured Topics</h2>
+
+    <div class="topic-container">
+        <div class="topic" onclick="openTopic('mental-health')">Mental Health</div>
+        <div class="topic" onclick="openTopic('personality')">Personality</div>
+        <div class="topic" onclick="openTopic('behavior')">Behavior</div>
+        <div class="topic" onclick="openTopic('motivation')">Motivation</div>
+        <div class="topic" onclick="openTopic('cognitive')">Cognitive</div>
+        <div class="topic" onclick="openTopic('therapy')">Therapy</div>
+        <div class="topic" onclick="openTopic('selfhelp')">Self-help</div>
+    </div>
+</div>
+
+
+<!-- GALLERY SECTION -->
+
+<div class="gallery">
+    <h2>Gallery Preview</h2>
+    <div class="gallery-container">
+        <img src="images/img1.jpeg"> 
+        <img src="images/img2.jpg">
+        <img src="images/img3.jpeg">
+        <img src="images/img4.jpeg">
+        <img src="images/img5.jpeg">
+        <img src="images/img6.jpeg">
+        <img src="images/img7.jpeg">
+        <img src="images/img8.jpeg">
+    </div>
+    <button class="gallery-btn">View Full Gallery</button>
+</div>
+
+<!-- WHY SECTION -->
+
+<div class="why">
+    <h2>Why Psychologypedia?</h2>
+    <ul>
+        <li>Easy Explanations</li>
+        <li>Student-friendly content</li>
+        <li>Real-life examples</li>
+    </ul>
+</div>
+
+<!-- ABOUT -->
+
+<div class="about">
+    <h2>About</h2>
+    <p>Psychologypedia is a platform that simplifies psychology for students using easy explanations and visuals.</p>
+</div>
+
+<!-- SEARCH -->
+
+<div class="search">
+    <input type="text" placeholder="Search psychology topics...">
+</div>
+
+<!-- NEWSLETTER -->
+
+<div class="newsletter">
+    <h2>Subscribe</h2>
+    <p>Get weekly psychology tips</p>
+    <input type="email" placeholder="Enter your email">
+    <button>Subscribe</button>
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+    <div class="foot-panel1">
+        Back to Top
+    </div>
+
+    <div class="foot-panel2">
+        <div class="footer-col">
+            <p>Get to know us</p>
+            <a href="#">Careers</a>
+            <a href="#">Our Story</a>
+            <a href="#">About Psychologypedia</a>
+        </div>
+
+        <div class="footer-col">
+            <p>Learn</p>
+            <a href="#">Topics</a>
+            <a href="#">Blog</a>
+            <a href="#">Glossary</a>
+        </div>
+        
+        <div class="footer-col">
+            <p>Resources</p>
+            <a href="#">Help Center</a>
+            <a href="#">FAQs</a>
+        </div>
+
+        <div class="footer-col">
+            <p>Legal</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Disclaimer</a>
+        </div>
+    </div>
+         
+    <div class="foot-panel3">
+
+    <div class="icon"></div>
+
+    <div class="yt-container">
+
+        <a href="https://youtube.com/@psychologypedia?si=xezHvtllbLjaqftg" 
+           target="_blank" 
+           class="yt-link">
+
+            <img src="images/youtube.jpg" alt="YouTube Channel">
+        </a>
+
+        <span class="yt-text">Subscribe to Our Channel</span>
+
+    </div>
+
+</div>
+
+    <div class="foot-panel4">
+        <div class="pages">
+            <a href="#">Contact   |   Email   |   Social Links</a>
+        </div>
+    </div>
+</footer>
+
+<!-- IMAGE POPUP -->
+
+<div class="image-popup" id="imagePopup">
+    <span class="close">&times;</span>
+    <img class="popup-img" id="popupImg">
+</div>
+</body> 
+</html>
